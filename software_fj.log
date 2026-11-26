@@ -3,3 +3,23 @@
 2026-11-25 16:57:04,641 | INFO | Reserva creada: RES-01 | Cliente: CLI-01 | Servicio: SAL-01 | Duracion: 2
 2026-11-25 16:57:04,641 | INFO | Reserva confirmada: RES-01
 2026-11-25 16:57:04,641 | INFO | Reserva procesada: RES-01 | Monto final: $113050.00
+2026-11-26 07:54:11,187 | INFO | === Inicio de simulacion Software FJ ===
+2026-11-26 07:54:11,187 | INFO | GestorSoftwareFJ inicializado.
+2026-11-26 07:54:11,187 | INFO | Cliente registrado: CLI-01 - Luis Argel
+2026-11-26 07:54:11,187 | INFO | Cliente registrado: CLI-02 - Maria Perez
+2026-11-26 07:54:11,187 | INFO | Cliente agregado al gestor: CLI-01
+2026-11-26 07:54:11,187 | INFO | Cliente agregado al gestor: CLI-02
+2026-11-26 07:54:11,187 | WARNING | Validacion de cliente rechazada controlada: El nombre del cliente debe tener al menos 2 caracteres.
+2026-11-26 07:54:11,187 | INFO | Servicio agregado al gestor: SAL-01
+2026-11-26 07:54:11,187 | INFO | Servicio agregado al gestor: EQP-01
+2026-11-26 07:54:11,187 | INFO | Servicio agregado al gestor: ASE-01
+2026-11-26 07:54:11,187 | INFO | Reserva creada: RES-01 | Cliente: CLI-01 | Servicio: SAL-01 | Duracion: 3
+2026-11-26 07:54:11,187 | INFO | Reserva creada: RES-02 | Cliente: CLI-02 | Servicio: EQP-01 | Duracion: 5
+2026-11-26 07:54:11,187 | INFO | Reserva creada: RES-03 | Cliente: CLI-01 | Servicio: ASE-01 | Duracion: 2
+2026-11-26 07:54:11,187 | INFO | Reserva confirmada: RES-01
+2026-11-26 07:54:11,187 | INFO | Reserva procesada: RES-01 | Monto final: $203490.00
+2026-11-26 07:54:11,187 | INFO | Reserva confirmada: RES-02
+2026-11-26 07:54:11,187 | INFO | Reserva procesada: RES-02 | Monto final: $432416.25
+2026-11-26 07:54:11,187 | WARNING | Reserva cancelada: RES-03 | Motivo: Reprogramacion solicitada por el cliente
+2026-11-26 07:54:11,187 | WARNING | Operacion invalida bloqueada: Solo se pueden procesar reservas CONFIRMADA. Estado de 'RES-03': CANCELADA.
+2026-11-26 07:54:11,187 | INFO | === Fin de simulacion Software FJ ===
